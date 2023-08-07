@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* Navigation area css */
+
+#nav-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #142440;
+    padding: 10px 100px;
+}
+
+#nav-area .wb-logo{
+    width: 30%;
+}
+
+#nav-area .wb-logo .img-thumb{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#nav-area .wb-logo .img-thumb h2{
+    color: #fff;
+    margin-left: 8px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#nav-area .wb-logo .img-thumb span{
+    color: #FF4A04;
+}
+
+#nav-area .navbar{
+    width: 42%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#nav-area .navbar li{
+    /* margin: 10px 5px; */
+}
+
+#nav-area .navbar li a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    transition: 0.5s all ease;
+    
+}
+
+#nav-area .navbar li .active{
+    color: #FF4A04;
+}
+
+#nav-area .navbar li a:hover{
+    background-color: #000000;
+    color: #FF4A04;
+}
