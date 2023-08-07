@@ -70,6 +70,7 @@ li{
 }
 
 #nav-area .navbar li a:hover{
-    background-color: #000000;
+    /* background-color: #000000; */
     color: #FF4A04;
+    /* border-radius: 5px; */
 }
